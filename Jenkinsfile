@@ -12,7 +12,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/mufassir-h/myapp.git'
+                git branch: 'main', url: 'https://github.com/mufassir-h/tester.git'
                 echo "Repository cloned successfully."
             }
         }
